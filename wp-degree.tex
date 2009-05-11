@@ -3,32 +3,47 @@
 \usepackage[T1]{fontenc}
 \usepackage{pgothic}
 \usepackage{setspace}
-\thispagestyle{empty}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\pagestyle{empty}
 \doublespacing
 \newcommand{\HEADER}{\fontsize{80}{80}}
 \newcommand{\HUGE}{\fontsize{50}{80}}
+\setlength{\topmargin}{-0.5in}
+\setlength{\textheight}{20cm}
+\setlength{\headheight}{0cm}
+\setlength{\headsep}{0cm}
 \begin{document}
 \begin{center}
 {\HEADER \pgothfamily University of Wikipedia}
 
-{\Huge \pgothfamily In recognition of the successful completion of the course of study}
+{\LARGE \pgothfamily In recognition of the successful completion of the course of study}
 
-{\Huge \pgothfamily as prescribed by the Board of Trustees}
-
-{\Huge \pgothfamily hereby confers upon}
+{\LARGE \pgothfamily as prescribed by the Board of Trustees hereby confers upon}
 
 {\HUGE \pgothfamily Andreas Krennmair}
 
-{\Huge \pgothfamily the degree of}
+{\LARGE \pgothfamily the degree of}
 
 {\HUGE \pgothfamily Doctor of Science}
 
-{\Huge \pgothfamily in}
+{\LARGE \pgothfamily in}
 
 {\HUGE \pgothfamily Applied Wikipedia Studies}
 
-{\Huge \pgothfamily with all rights, privileges and honors thereunto appertaining.}
+{\LARGE \pgothfamily with all rights, privileges and honors thereunto appertaining.}
 
-{\Huge \pgothfamily given this tenth day of May, two-thousand and nine}
+{\LARGE \pgothfamily given this tenth day of May, two-thousand and nine}
+
 \end{center}
+
+\vspace{1cm}
+\begin{tabularx}{\textwidth}[b]{lXr} \cline{1-1} \cline{3-3}
+{\large \pgothfamily Dean of the University} & & {\large \pgothfamily President of the Board}
+\end{tabularx}
+
+\begin{center}
+\includegraphics[width=3cm,height=3.88cm]{wp-logo.pdf}
+\end{center}
+
 \end{document}

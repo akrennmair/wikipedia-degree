@@ -1,9 +1,10 @@
 LATEX=pdflatex
+PREFIX=wp-degree
 
-all: wp-degree.pdf
+all: $(PREFIX).pdf
 
 %.pdf: %.tex
 	$(LATEX) $<
 
 clean:
-	$(RM) *.pdf *.aux *.log
+	$(RM) $(PREFIX).pdf $(PREFIX).aux $(PREFIX).log
