@@ -1,0 +1,11 @@
+README for wikipedia-degree
+===========================
+
+Copy the wpdegree.cgi to your cgi-bin directory and make it executable.
+
+Edit your wpdegree.cgi and set the path to your wikipedia-degree checkout
+directory so that it is able to find the template. The checkout directory also
+needs to be writable by the user under which wpdegree.cgi is executed.
+
+Read the source code. Understand it. Before modifying it, be aware of the
+security implications: code injection is possible even in LaTeX.

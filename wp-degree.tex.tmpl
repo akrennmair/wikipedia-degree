@@ -1,0 +1,55 @@
+\documentclass[a4paper,12pt,landscape]{article}
+\usepackage[landscape]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{pgothic}
+\usepackage{setspace}
+\usepackage{tabularx}
+\usepackage{graphicx}
+\usepackage{eso-pic,picture}
+\pagestyle{empty}
+\doublespacing
+\newcommand{\HEADER}{\fontsize{80}{80}}
+\newcommand{\HUGE}{\fontsize{50}{80}}
+\newcommand{\thefont}{\pgothfamily}
+\setlength{\topmargin}{-0.5in}
+\setlength{\textheight}{20cm}
+\setlength{\headheight}{0cm}
+\setlength{\headsep}{0cm}
+
+\AddToShipoutPicture{%
+\setlength\fboxsep{3pt}%
+\put(5mm,3mm){\framebox(287mm,204mm)[lb]{}}%
+\put(60mm,50mm){\includegraphics{mary_a_ward.jpg}}%
+\put(220mm,47mm){\includegraphics{hg_wells.jpg}}%
+\put(132mm,20mm){\includegraphics[width=3cm,height=3.88cm]{wp-logo.pdf}}%
+}
+
+\begin{document}
+\begin{center}
+{\HEADER \thefont University of Wikipedia}
+
+{\LARGE \thefont In recognition of the successful completion of the course of study}
+
+{\LARGE \thefont as prescribed by the Board of Trustees hereby confers upon}
+
+{\HUGE \thefont @NAME@}
+
+{\LARGE \thefont the degree of}
+
+{\HUGE \thefont Doctor of Science}
+
+{\LARGE \thefont in}
+
+{\HUGE \thefont Applied Wikipedia Studies}
+
+{\LARGE \thefont with all rights, privileges and honors thereunto appertaining.}
+
+{\LARGE \thefont given this @DATE@}
+
+\end{center}
+
+\vspace{1cm}
+\begin{tabularx}{\textwidth}[b]{lXr} \cline{1-1} \cline{3-3}
+{\large \thefont Dean of the University} & & {\large \thefont President of the Board}
+\end{tabularx}
+\end{document}

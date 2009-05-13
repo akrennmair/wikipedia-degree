@@ -1,3 +1,7 @@
-- build online generator
+TODO:
 - make type of degree selectable (Bachelor, Master, Doctor; Applied Wikipedia Studies, Wikiology, ...)
+- fix special characters: umlauts and accents currently don't work.
+
+DONE:
+- build online generator
 - build converter for date to text representation
